@@ -39,9 +39,9 @@ button{
     height: 40px;
 }
 
-#div-lista-pessoa{
+#div-lista-pessoas{
     width: 100%;
     min-height: 450px;
-    color: aliceblue;
-    
+    background-color: bisque;
+    color: white;
 }
