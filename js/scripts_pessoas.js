@@ -1,3 +1,6 @@
+//IMPORTANDO ARQUIVOS
+import { calcDesconto } from "./scripts_calculos.js"
+
 // Pegando Elementos Do DOM
 const formPessoa = document.querySelector('#form-pessoa')
 const divLista = document.querySelector('#div-lista-pessoas')
