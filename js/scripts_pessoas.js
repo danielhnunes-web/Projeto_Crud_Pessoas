@@ -20,6 +20,9 @@ formPessoa.addEventListener('submit', (evt) => {
         renda: dadosFormPessoa.get('renda')
     }
 
+    //CHAMANDO A FUNÇÃO addPessoa E PASSANDO O OBJETO LITERAL pessoa
+    addPessoa(pessoa)
+
 })
 
 //CRIANDO A FUNÇÃO ADICIONAR PESSOA
