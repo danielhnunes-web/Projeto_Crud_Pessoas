@@ -19,5 +19,10 @@ formPessoa.addEventListener('submit', (evt) => {
         idade: dadosFormPessoa.get('idade'),
         renda: dadosFormPessoa.get('renda')
     }
-    
+
 })
+
+//CRIANDO A FUNÇÃO ADICIONAR PESSOA
+const addPessoa = (objPessoa) => {
+    pessoas.push(objPessoa)
+}
